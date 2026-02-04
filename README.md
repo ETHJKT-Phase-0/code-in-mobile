@@ -1,6 +1,8 @@
 # Coding In Mobile
 
-Halo! Pernakah kalian berpikir untuk mengikuti modul pembelajaran RPN namun belum punya laptop / pc sebagai penunjang kegiatannya ? Maka disini kalian akan belajar cara menggunakan hp kalian sebagai penunjang belajar coding.
+Halo Etherean! 🧙‍♂️
+
+Pernakah kalian berpikir untuk mengikuti modul pembelajaran ETHJKT namun belum punya laptop / pc sebagai penunjang kegiatannya? Maka disini kalian akan belajar cara menggunakan hp kalian sebagai penunjang belajar coding.
 
 ## Pendahuluan
 Termux merupakan terminal emulator yang mengemulasikan linux environment di device android kalian. Aplikasi ini memungkinkan untuk mengakses tool linux dan sebagainya hanya dengan lewat simulasi.
@@ -69,7 +71,7 @@ Oke selamat dengan begini kalian sudah berhasil membuat package manager dalam ke
 Mari kita install tool berikut untuk menunjang kegiatan coding kita.
 
 - **Git** merupakan tool yang kita gunakan untuk version control project kita, tool ini wajib sekali di kuasai ntuk seorang programmer.
-- **NodeJS** merupakan sebuah runtime javascript yang akan kita gunakan untuk mengeksekusi project kita. Karena kita juga akan mengikuti pembelajaran modul dari RPN yang notabenenya menggunakan javascript. kita wajib untuk instalasi tool ini. tool ini juga berguna untuk code editor kita karena Sebagian besar language server dijalankan oleh nodejs
+- **NodeJS** merupakan sebuah runtime javascript yang akan kita gunakan untuk mengeksekusi project kita. Karena kita juga akan mengikuti pembelajaran modul dari ETHJKT yang notabenenya menggunakan javascript. kita wajib untuk instalasi tool ini. tool ini juga berguna untuk code editor kita karena Sebagian besar language server dijalankan oleh nodejs
 - **Clang** merupakan tool yang digunakan untuk compiling code c / c++. karena nanti kita akan berurusan dengan lazy loading, maka clang ini dibutuhkan untuk mengcompile code yang dibutuhkan oleh code editor kita.
 - **Neovim** code editor atau ide yang akan kita gunakan!.
 
@@ -149,8 +151,8 @@ Buka kembali nvim. jika berhasil maka icon akan muncul
 
 ditahap ini kalian sudah berhasil untuk mengubah font dan memunculkan icon di astro nvim
 
-## Percobaan Mensubmit Materi RPN
-Untuk environment kalian sudah siap. mari kita melakukan percobaan mensubmit materi RPN.
+## Percobaan Mensubmit Materi ETHJKT
+Untuk environment kalian sudah siap. mari kita melakukan percobaan mensubmit materi ETHJKT.
 
 ### Menggunakan Akun Github kita di termux
 kalian bisa install dulu tool github dengan perintah berikut
@@ -176,8 +178,8 @@ git config --global user.name <UsernameGithubKalian>
 git config --global user.email <email@github.kalian>
 ```
 
-### Fork Materi RPN
-kita akan mencoba menfork materi rpn disini kalian ikuti tutorial ini terlebih dahulu sampai kalian mencopy hasil link fork kalian.
+### Fork Materi ETHJKT
+kita akan mencoba menfork materi ETHJKT disini kalian ikuti tutorial ini terlebih dahulu sampai kalian mencopy hasil link fork kalian.
 
 [![Tutor Daftar](https://img.youtube.com/vi/TCNAxlvnlfs/maxresdefault.jpg)](https://youtu.be/TCNAxlvnlfs)
 
@@ -248,13 +250,13 @@ Setelah itu cobalah mengetik `git push`. maka akan muncul peringatan, kalian iku
 Bukalah repository fork kalian di browser maka akan terlihat tombol untuk compare & pull request kalian klik saja itu.
 ![step-9](/assets/rpn-fork/step-9.png)
 
-Pastikan untuk base repository berada pada repository asli. misalnya disini RPN-Phase-0/Week1-Welcome-To-Code dengan branch main. Dan ubah title dengan nama kalian
+Pastikan untuk base repository berada pada repository asli. Dan ubah title dengan nama kalian
 ![step-10](/assets/rpn-fork/step-10.png)
 
 Setelah itu klik create pull request
 ![step-11](/assets/rpn-fork/step-11.png)
 
-Jika muncul pull request kalian di base repository. maka kalian berhasil mengerjakan soal dan mintalah helper untuk mereview hasil kerja kalian!.
+Jika muncul pull request kalian di base repository. maka kalian berhasil mengerjakan soal dan mintalah mentor untuk mereview hasil kerja kalian!.
 ![step-12](/assets/rpn-fork/step-12.png)
 ![step-13](/assets/rpn-fork/step-13.png)
 
